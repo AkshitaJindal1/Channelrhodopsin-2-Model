@@ -10,4 +10,3 @@ This repository contains:
 2) Estimation of parameters using genetic algorithm
 3) Synaptic current profile
 4) Data
-5) Results
