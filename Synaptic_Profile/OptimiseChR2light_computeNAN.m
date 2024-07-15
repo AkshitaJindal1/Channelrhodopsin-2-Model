@@ -4,8 +4,8 @@ close all; clear; clc;
 % and beta) are actually achievable given the parameters of opsin. 
 
 % Define the range of rise and decay values
-rise_values = [1.0, 0.1];
-decay_values = [0.2, 0.075];
+rise_values = [0.01, 0.05, 0.075, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 1.0];
+decay_values = [1.0, 0.95, 0.9, 0.8, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5, 0.45, 0.4, 0.35 ,0.3 ,0.25, 0.2, 0.15, 0.1, 0.075, 0.05, 0.025, 0.01];
 
 % Initialize heatmap data and error matrices
 heatmap_data = zeros(length(decay_values), length(rise_values));
